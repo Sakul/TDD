@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DependencyInjection.Shared.Services.OrderService">
+    <Position X="0.5" Y="2.5" Width="4" />
+    <Members>
+      <Field Name="logger" Hidden="true" />
+      <Method Name="OrderService" Hidden="true" />
+      <Field Name="productRepository" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACAAACAAAAABAAAAAEAAAAAAAQAAAAAAg=</HashCode>
+      <FileName>Services\OrderService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="orderRepository" />
+      <Field Name="productRepository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DependencyInjection.Shared.Services.ProductService">
+    <Position X="0.5" Y="0.5" Width="4" />
+    <Members>
+      <Field Name="logger" Hidden="true" />
+      <Field Name="orderRepository" Hidden="true" />
+      <Method Name="ProductService" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAQCIAAAABAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Services\ProductService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="orderRepository" />
+      <Field Name="productRepository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DependencyInjection.Shared.Repositories.SqlOrderRepository" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="2.5" Width="2.75" />
+    <Members>
+      <Field Name="logger" Hidden="true" />
+      <Method Name="SqlOrderRepository" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAACAAAAAAAAAAAAAEAAAgAAAAQAAIA=</HashCode>
+      <FileName>Repositories\SqlOrderRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="shoppingContext" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DependencyInjection.Shared.Repositories.SqlProductRepository" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="2.75" />
+    <Members>
+      <Field Name="logger" Hidden="true" />
+      <Method Name="SqlProductRepository" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAEAAAgAAAAQAAIA=</HashCode>
+      <FileName>Repositories\SqlProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="shoppingContext" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DependencyInjection.Shared.Repositories.ShoppingContext">
+    <Position X="12.5" Y="1.5" Width="3" />
+    <Members>
+      <Method Name="ShoppingContext" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Repositories\ShoppingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DependencyInjection.Shared.Models.OrderInfo">
+    <Position X="16" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAgAAAAAAAAAAAAAAQAAAAgAAggAAAAA=</HashCode>
+      <FileName>Models\OrderInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DependencyInjection.Shared.Models.ProductInfo">
+    <Position X="16" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DependencyInjection.Shared.Repositories.IOrderRepository" Collapsed="true">
+    <Position X="6" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IOrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DependencyInjection.Shared.Repositories.IProductRepository" Collapsed="true">
+    <Position X="6" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IProductRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

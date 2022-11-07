@@ -1,0 +1,22 @@
+[
+  {
+    "Grade": "A",
+    "Percentage": 85
+  },
+  {
+    "Grade": "B",
+    "Percentage": 70
+  },
+  {
+    "Grade": "C",
+    "Percentage": 60
+  },
+  {
+    "Grade": "D",
+    "Percentage": 50
+  },
+  {
+    "Grade": "F",
+    "Percentage": 0
+  }
+]

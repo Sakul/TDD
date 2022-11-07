@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AuthenticationService.Shared.Services.AuthService">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="AuthService" Hidden="true" />
+    </Members>
+    <AssociationLine Name="UserRepo" Type="AuthenticationService.Shared.Services.UserRepository">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.277" Y="0.05" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Services\AuthService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UserRepo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AuthenticationService.Shared.Services.UserRepository">
+    <Position X="5.5" Y="0.5" Width="3.5" />
+    <Members>
+      <Field Name="_users" Hidden="true" />
+      <Method Name="UserRepository" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAEAAAA=</HashCode>
+      <FileName>Services\UserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuthenticationService.Shared.Models.UserInfo">
+    <Position X="5.5" Y="2" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAgAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
