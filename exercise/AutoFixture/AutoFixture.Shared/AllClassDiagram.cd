@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AutoFixture.Shared.Models.CartInfo">
+    <Position X="8.25" Y="2.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAAAAAAAAAAAAAAAQAAAAgAAggAAAAQ=</HashCode>
+      <FileName>Models\CartInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoFixture.Shared.Models.ProductInfo">
+    <Position X="6" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoFixture.Shared.Services.CartService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\CartService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_logger" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AutoFixture.Shared.Services.ICartService">
+    <Position X="0.5" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ICartService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AutoFixture.Shared.Services.ILogger">
+    <Position X="1.75" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
